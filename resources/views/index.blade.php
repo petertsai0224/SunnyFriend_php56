@@ -8,14 +8,14 @@
     <!-- 上述3个meta标签*必须*放在最前面，任何其他内容都*必须*跟随其后！ -->
     <title>日友環保科技股份有限公司</title>
     <!-- Bootstrap -->
-    <link href="css/bootstrap.min.css" rel="stylesheet">
-    <link href="css/owl.carousel.min.css" rel="stylesheet">
-    <link href="css/owl.theme.default.css" rel="stylesheet">
-    <link href="css/font-awesome.min.css" rel="stylesheet">
-    <link href="css/animate.css" rel="stylesheet">
-    <link href="css/ihover2.css" rel="stylesheet">
-    <link href="css/sunfriend2.css" rel="stylesheet">
-    <link href="css/bootstrap-dropdownhover.min.css" rel="stylesheet">
+    <link href="resources/css/bootstrap.min.css" rel="stylesheet">
+    <link href="resources/css/owl.carousel.min.css" rel="stylesheet">
+    <link href="resources/css/owl.theme.default.css" rel="stylesheet">
+    <link href="resources/css/font-awesome.min.css" rel="stylesheet">
+    <link href="resources/css/animate.css" rel="stylesheet">
+    <link href="resources/css/ihover2.css" rel="stylesheet">
+    <link href="resources/css/sunfriend2.css" rel="stylesheet">
+    <link href="resources/css/bootstrap-dropdownhover.min.css" rel="stylesheet">
     <!--思源黑體 -->
     <style type="text/css">
     @import url(http://fonts.googleapis.com/earlyaccess/notosanstc.css);
@@ -23,9 +23,9 @@
         font-family: 'Noto Sans TC', sans-serif;
     }
     </style>
-    <script src="js/jquery.min.js"></script>
+    <script src="resources/js/jquery.min.js"></script>
     <!-- Include all compiled plugins (below), or include individual files as needed -->
-    <script src="js/owl.carousel.js"></script>
+    <script src="resources/js/owl.carousel.js"></script>
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
     <!--[if lt IE 9]>
@@ -49,7 +49,7 @@
                             <span class="icon-bar"></span>
                             <span class="icon-bar"></span>
                         </button>
-                        <a href="index.php" class="navbar-brand"><img alt="Brand" class="img-responsive" style="width:100%" src="assets/images/LOGO-01-01.svg"></a>
+                        <a href="index.php" class="navbar-brand"><img alt="Brand" class="img-responsive" style="width:100%" src="resources/assets/images/LOGO-01-01.svg"></a>
                     </div>
                     <div class="collapse navbar-collapse" id="myNavbar">
                     
@@ -158,31 +158,31 @@
                 <h4 class="wow fadeInLeft" data-wow-delay="0.7s">SUNNY FRIEND ENVIRONMENTAL TECHNOLOGY</h4>
             </div>
             <div class="item active">
-                <img src="assets/images/slider/001.jpg" alt="First slide">
+                <img src="resources/assets/images/slider/001.jpg" alt="First slide">
                 <div class="carousel-caption"></div>
             </div>
             <div class="item">
-                <img src="assets/images/slider/002.jpg" alt="Second slide">
+                <img src="resources/assets/images/slider/002.jpg" alt="Second slide">
                 <div class="carousel-caption"></div>
             </div>
             <div class="item">
-                <img src="assets/images/slider/003.jpg" alt="Second slide">
+                <img src="resources/assets/images/slider/003.jpg" alt="Second slide">
                 <div class="carousel-caption"></div>
             </div>
             <div class="item">
-                <img src="assets/images/slider/004.jpg" alt="Second slide">
+                <img src="resources/assets/images/slider/004.jpg" alt="Second slide">
                 <div class="carousel-caption"></div>
             </div>
             <div class="item">
-                <img src="assets/images/slider/005.jpg" alt="Second slide">
+                <img src="resources/assets/images/slider/005.jpg" alt="Second slide">
                 <div class="carousel-caption"></div>
             </div>
             <div class="item">
-                <img src="assets/images/slider/006.jpg" alt="Second slide">
+                <img src="resources/assets/images/slider/006.jpg" alt="Second slide">
                 <div class="carousel-caption"></div>
             </div>
             <div class="item">
-                <img src="assets/images/slider/007.jpg" alt="Second slide">
+                <img src="resources/assets/images/slider/007.jpg" alt="Second slide">
                 <div class="carousel-caption"></div>
             </div>
         </div>
@@ -240,7 +240,7 @@
             <div class="row">
                 <div class="col-md-6 col-sm-6 wow fadeInDown" data-wow-delay="1s">
                     <div class="service-box1">
-                        <img alt="Brand" class="img-responsive" style="width:100%; box-shadow: 0 4px 15px rgba(159, 159, 159, 0.54);" src="assets/images/018.jpg">
+                        <img alt="Brand" class="img-responsive" style="width:100%; box-shadow: 0 4px 15px rgba(159, 159, 159, 0.54);" src="resources/assets/images/018.jpg">
                     </div>
                 </div>
                 <div class="col-md-6 col-sm-6 wow fadeInDown" data-wow-delay="1s">
@@ -263,7 +263,7 @@
                 <h3><em>產業前進動能</em></h3>
                 </div>
                 <div class="col-md-1 col-sm-1 wow fadeInDown" data-wow-delay="1s">
-                    <div class="service-icon"><img alt="Brand" class="img-responsive" src="assets/images/house-01.svg"></div>
+                    <div class="service-icon"><img alt="Brand" class="img-responsive" src="resources/assets/images/house-01.svg"></div>
                 </div>
                 <div class="col-md-3 col-sm-3 wow fadeInDown" data-wow-delay="1s">
                     <div class="service-box">
@@ -274,7 +274,7 @@
                     </div>
                 </div>
                 <div class="col-md-1 col-sm-1 wow fadeInDown" data-wow-delay="1.5s">
-                    <div class="service-icon"><img alt="Brand" class="img-responsive" src="assets/images/house-01.svg"></div>
+                    <div class="service-icon"><img alt="Brand" class="img-responsive" src="resources/assets/images/house-01.svg"></div>
                 </div>
                 <div class="col-md-3 col-sm-3 wow fadeInDown" data-wow-delay="1.5s">
                     <div class="service-box">
@@ -285,7 +285,7 @@
                     </div>
                 </div>
                 <div class="col-md-1 col-sm-1 wow fadeInDown" data-wow-delay="2s">
-                    <div class="service-icon"><img alt="Brand" class="img-responsive" src="assets/images/house-01.svg"></div>
+                    <div class="service-icon"><img alt="Brand" class="img-responsive" src="resources/assets/images/house-01.svg"></div>
                 </div>
                 <div class="col-md-3 col-sm-3 wow fadeInDown" data-wow-delay="2s">
                     <div class="service-box">
@@ -310,7 +310,7 @@
                 <div id="owl-one" class="owl-carousel owl-theme">
                     <div class="item">
                         <div class="ih-item square effect13">
-                            <img class="img-responsive img" src="assets/images/Thumbnail/s01.jpg">
+                            <img class="img-responsive img" src="resources/assets/images/Thumbnail/s01.jpg">
                         </div>
                         <div>
                             <p>事業廢棄物清除處理</p>
@@ -318,7 +318,7 @@
                     </div>
                     <div class="item">
                         <div class="ih-item square effect13">
-                            <img class="img-responsive img" src="assets/images/Thumbnail/s02.jpg">
+                            <img class="img-responsive img" src="resources/assets/images/Thumbnail/s02.jpg">
                         </div>
                         <div>
                             <p>醫療廢棄物清除處理</p>
@@ -326,7 +326,7 @@
                     </div>
                     <div class="item">
                         <div class="ih-item square effect13">
-                            <img class="img-responsive img" src="assets/images/Thumbnail/s03.jpg">
+                            <img class="img-responsive img" src="resources/assets/images/Thumbnail/s03.jpg">
                         </div>
                         <div>
                             <p>廢棄物檢驗分析與品管</p>
@@ -334,7 +334,7 @@
                     </div>
                     <div class="item">
                         <div class="ih-item square effect13">
-                            <img class="img-responsive img" src="assets/images/Thumbnail/s04.jpg">
+                            <img class="img-responsive img" src="resources/assets/images/Thumbnail/s04.jpg">
                         </div>
                         <div>
                             <p>焚化爐設計、規劃及建造</p>
@@ -373,19 +373,19 @@
                 <h2>日友最新資訊</h2>
                 <div id="owl-two" class="owl-theme owl-carousel">
                     <div class="item"><a href="News/ImportantNews.html">
-                        <img class=" icon_img" src="assets/images/owl_icon/newsLOGO-02.svg">
+                        <img class=" icon_img" src="resources/assets/images/owl_icon/newsLOGO-02.svg">
                         <div class="ih-item square effect13 bottom_to_top">
                             <div class="news-caption">
                                 <h1>重要消息</h1>
                                 <h4>公開資訊觀測站</h4>
                                 <p>投資人可以透過『公開資訊觀測站』，查詢本公司之重大訊息。(查詢代號：8341)......</p>
                             </div>
-                            <img class="img-responsive img" src="assets/images/news/new01.jpg">
+                            <img class="img-responsive img" src="resources/assets/images/news/new01.jpg">
                             <div class="info"></div></a>
                         </div>
                     </div>
                     <div class="item">
-                                    <img class=" icon_img" src="assets/images/owl_icon/newsLOGO-03.svg">
+                                    <img class=" icon_img" src="resources/assets/images/owl_icon/newsLOGO-03.svg">
 
                         <div class="ih-item square effect13 bottom_to_top">
                             <div class="news-btn">
@@ -395,19 +395,19 @@
                                 <a href="https://www.youtube.com/watch?v=gbnIhcsq_6c&t=" target="_blank"><div class="btn btn-default newsbtn1 ">觀看英文版</div></a>
                                 <a href="AboutSF/IIC.html"><div class="btn btn-default newsbtn2 ">法人說明會相關資訊</div></a>
                             </div>
-                            <img class="img-responsive img" src="assets/images/news/new02.jpg">
+                            <img class="img-responsive img" src="resources/assets/images/news/new02.jpg">
                             <div class="info"></div>
                         </div>
                     </div>
                     <div class="item"><a href="News/WebsiteLinks.html">
-                      <img class=" icon_img" src="assets/images/owl_icon/newsLOGO-04.svg">
+                      <img class=" icon_img" src="resources/assets/images/owl_icon/newsLOGO-04.svg">
                         <div class="ih-item square effect13 bottom_to_top">
                             <div class="news-caption">
                                 <h1>環保連結</h1>
                                 <h4>相關環保資訊</h4>
                                 <p>日友彰濱廠(中區事業廢棄物綜合處理中心)青新環境工程(股)公司......</p>
                             </div>
-                            <img class="img-responsive img" src="assets/images/news/new03.jpg">
+                            <img class="img-responsive img" src="resources/assets/images/news/new03.jpg">
                             <div class="info"></div></a>
                         </div>
                     </div>
@@ -445,7 +445,7 @@
                 <div class="col-md-4 col-sm-6 footerleft">
                     <div class="logofooter">{{Lang::get('sunnyfriend.Footer-1')}}</div>
                     <p>日友公司成立於1994年，2000年成為潤泰集團環保產業基地，也是臺灣第一家專業生物醫療廢棄物焚化處理公司，日友公司擁有從研發、設計、製圖、操作、系統改良等全方位的廢棄物處理經驗，不斷革新並擴展海外市場，使日友公司營運得以穩定成長。</p>
-                    <div><img alt="Brand" class="img-responsive" src="../assets/images/footerLOGO.svg"></div>
+                    <div><img alt="Brand" class="img-responsive" src="../resources/assets/images/footerLOGO.svg"></div>
                 </div>
                 <div class="col-md-8 col-sm-6 paddingtop-bottom">
                     <div class="heading7">{{Lang::get('sunnyfriend.Footer-2')}}</div>
@@ -499,15 +499,15 @@ function scrollFunction() {
     </div>
     <!--HEADER END-->
     <!-- Include all compiled plugins (below), or include individual files as needed -->
-    <script src="js/bootstrap.min.js"></script>
-    <script src="js/wow.js"></script>
+    <script src="resources/js/bootstrap.min.js"></script>
+    <script src="resources/js/wow.js"></script>
         <script>
     new WOW().init();
     </script>
-    <script src="js/tutorial.js"></script>
-    <script src="js/jquery.easing.1.3.js"></script>
-    <script src="js/scrollanimated.js"></script>
-    <script src="js/bootstrap-dropdownhover.min.js"></script>
+    <script src="resources/js/tutorial.js"></script>
+    <script src="resources/js/jquery.easing.1.3.js"></script>
+    <script src="resources/js/scrollanimated.js"></script>
+    <script src="resources/js/bootstrap-dropdownhover.min.js"></script>
 
 
 

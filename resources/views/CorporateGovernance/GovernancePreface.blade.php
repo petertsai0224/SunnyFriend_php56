@@ -3,7 +3,7 @@
 @section('content')
 <!--banner-->
 <div class="bannerArea b-box  wow fadeInDown" data-wow-delay="0.5s ">
-    <img class="img-responsive" src="../assets/images/CorporateGovernance/公司治理_banner.jpg">
+    <img class="img-responsive" src="../resources/assets/images/CorporateGovernance/公司治理_banner.jpg">
     <div class="titleBox clearfix">
         <h2>{{Lang::get('sunnyfriend.CorporateGovernance')}}</h2>
     </div>
@@ -34,7 +34,7 @@
                 </p>
             </div>
             <div class="col-md-6 col-sm-6 col-md-offset-1">
-                <img class="img-responsive" src="../assets/images/CorporateGovernance/CorporateGovernance.png">
+                <img class="img-responsive" src="../resources/assets/images/CorporateGovernance/CorporateGovernance.png">
             </div>
         </div>
     </div>

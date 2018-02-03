@@ -8,16 +8,16 @@
     <!-- 上述3个meta标签*必须*放在最前面，任何其他内容都*必须*跟随其后！ -->
     <title>日友環保科技股份有限公司</title>
     <!-- Bootstrap -->
-    <link href="../css/bootstrap.min.css" rel="stylesheet">
-    <link href="../css/owl.carousel.min.css" rel="stylesheet">
-    <link href="../css/owl.theme.default.css" rel="stylesheet">
-    <link href="../css/font-awesome.min.css" rel="stylesheet">
-    <link href="../css/animate.css" rel="stylesheet">
-    <link href="../css/ihover2.css" rel="stylesheet">
-    <link href="../css/sunfriend2.css" rel="stylesheet">
-    <link href="../css/{{Lang::get('sunnyfriend.css')}}" rel="stylesheet">
-    <link href="../css/bootstrap-dropdownhover.min.css" rel="stylesheet">
-    <link href="../css/bootstrap-select.css" rel="stylesheet">
+    <link href="../resources/css/bootstrap.min.css" rel="stylesheet">
+    <link href="../resources/css/owl.carousel.min.css" rel="stylesheet">
+    <link href="../resources/css/owl.theme.default.css" rel="stylesheet">
+    <link href="../resources/css/font-awesome.min.css" rel="stylesheet">
+    <link href="../resources/css/animate.css" rel="stylesheet">
+    <link href="../resources/css/ihover2.css" rel="stylesheet">
+    <link href="../resources/css/sunfriend2.css" rel="stylesheet">
+    <link href="../resources/css/{{Lang::get('sunnyfriend.css')}}" rel="stylesheet">
+    <link href="../resources/css/bootstrap-dropdownhover.min.css" rel="stylesheet">
+    <link href="../resources/css/bootstrap-select.css" rel="stylesheet">
     <!--思源黑體 -->
     <style type="text/css">
     @import url(http://fonts.googleapis.com/earlyaccess/notosanstc.css);
@@ -25,9 +25,9 @@
         font-family: 'Noto Sans TC', sans-serif;
     }
     </style>
-    <script src="../js/jquery.min.js"></script>
+    <script src="../resources/js/jquery.min.js"></script>
     <!-- Include all compiled plugins (below), or include individual files as needed -->
-    <script src="../js/owl.carousel.js"></script>
+    <script src="../resources/js/owl.carousel.js"></script>
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
     <!--[if lt IE 9]>
@@ -51,7 +51,7 @@
                             <span class="icon-bar"></span>
                             <span class="icon-bar"></span>
                         </button>
-                        <a href="../" class="navbar-brand"><img alt="Brand" class="img-responsive" style="width:100%" src="../assets/images/LOGO-01-01.svg"></a>
+                        <a href="../" class="navbar-brand"><img alt="Brand" class="img-responsive" style="width:100%" src="../resources/assets/images/LOGO-01-01.svg"></a>
                     </div>
                     <div class="collapse navbar-collapse" id="myNavbar">
                     @if((Config::get('app.locale'))=="tw")
@@ -146,7 +146,7 @@
                 <div class="col-md-4 col-sm-6 footerleft">
                     <div class="logofooter">{{Lang::get('sunnyfriend.Footer-1')}}</div>
                     <p>日友公司成立於1994年，2000年成為潤泰集團環保產業基地，也是臺灣第一家專業生物醫療廢棄物焚化處理公司，日友公司擁有從研發、設計、製圖、操作、系統改良等全方位的廢棄物處理經驗，不斷革新並擴展海外市場，使日友公司營運得以穩定成長。</p>
-                    <div><img alt="Brand" class="img-responsive" src="../assets/images/footerLOGO.svg"></div>
+                    <div><img alt="Brand" class="img-responsive" src="../resources/assets/images/footerLOGO.svg"></div>
                 </div>
                 <div class="col-md-8 col-sm-6 paddingtop-bottom">
                     <div class="heading7">{{Lang::get('sunnyfriend.Footer-2')}}</div>
@@ -200,17 +200,17 @@ function scrollFunction() {
     </div>
     <!--HEADER END-->
     <!-- Include all compiled plugins (below), or include individual files as needed -->
-    <script src="../js/bootstrap.min.js"></script>
-    <script src="../js/wow.js"></script>
+    <script src="../resources/js/bootstrap.min.js"></script>
+    <script src="../resources/js/wow.js"></script>
         <script>
     new WOW().init();
     </script>
-    <script src="../js/tutorial.js"></script>
-    <script src="../js/jquery.easing.1.3.js"></script>
-    <script src="../js/scrollanimated.js"></script>
-    <script src="../js/bootstrap-dropdownhover.min.js"></script>
-    <script src="../js/dragscroll.js"></script>
-    <script src="../js/bootstrap-select.js"></script>
+    <script src="../resources/js/tutorial.js"></script>
+    <script src="../resources/js/jquery.easing.1.3.js"></script>
+    <script src="../resources/js/scrollanimated.js"></script>
+    <script src="../resources/js/bootstrap-dropdownhover.min.js"></script>
+    <script src="../resources/js/dragscroll.js"></script>
+    <script src="../resources/js/bootstrap-select.js"></script>
 
 
     @yield('script')

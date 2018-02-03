@@ -3,7 +3,7 @@
 @section('content')
 <!--banner-->
 <div class="bannerArea b-box  wow fadeInDown" data-wow-delay="0.5s ">
-    <img class="img-responsive" src="../assets/images/news/new_banner01.jpg">
+    <img class="img-responsive" src="../resources/assets/images/news/new_banner01.jpg">
     <div class="titleBox clearfix">
         <h2>{{Lang::get('sunnyfriend.News')}}</h2>
     </div>
@@ -31,7 +31,7 @@
             <div class="row">
                 <div id="owl-two" class="owl-theme owl-carousel">
                     <div class="item"><a href="../News/ImportantNews.html">
-                                    <img class=" icon_img" src="../assets/images/owl_icon/newsLOGO-02.svg">
+                                    <img class=" icon_img" src="../resources/assets/images/owl_icon/newsLOGO-02.svg">
 
                         <div class="ih-item square effect13 bottom_to_top">
                             <div class="news-caption">
@@ -39,7 +39,7 @@
                                 <h4>{{Lang::get('sunnyfriend.NewsCenter-2')}}</h4>
                                 <p>{{Lang::get('sunnyfriend.NewsCenter-3')}}</p>
                             </div>
-                            <img class="img-responsive img" src="../assets/images/news/new01.jpg"></a>
+                            <img class="img-responsive img" src="../resources/assets/images/news/new01.jpg"></a>
                             <div class="info"></div>
                         </div>
                     </div>
@@ -54,7 +54,7 @@
                                 <a href="https://www.youtube.com/watch?v=gbnIhcsq_6c&t=" target="_blank"><div class="btn btn-default newsbtn1 ">{{Lang::get('sunnyfriend.NewsCenter-7')}}</div></a>
                                 <a href="../AboutSF/IIC.html"><div class="btn btn-default newsbtn2 ">{{Lang::get('sunnyfriend.NewsCenter-8')}}</div></a>
                             </div>
-                            <img class="img-responsive img" src="../assets/images/news/new02.jpg">
+                            <img class="img-responsive img" src="../resources/assets/images/news/new02.jpg">
                             <div class="info"></div>
                         </div>
                     </div>
@@ -66,7 +66,7 @@
                                 <h4>{{Lang::get('sunnyfriend.NewsCenter-10')}}</h4>
                                 <p>{{Lang::get('sunnyfriend.NewsCenter-11')}}</p>
                             </div>
-                            <img class="img-responsive img" src="../assets/images/news/new03.jpg">
+                            <img class="img-responsive img" src="../resources/assets/images/news/new03.jpg">
                             <div class="info"></div>
                         </div>
                     </div>
