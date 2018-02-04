@@ -3,7 +3,7 @@
 @section('content')
     <!--banner-->
     <div class="bannerArea b-box  wow fadeInDown" data-wow-delay="0.5s ">
-        <img class="img-responsive" src="../assets/images/CorporateSocialResponsibility/CSR_banner.jpg">
+        <img class="img-responsive" src="../resources/assets/images/CorporateSocialResponsibility/CSR_banner.jpg">
         <div class="titleBox clearfix">
             <h2>{{Lang::get('sunnyfriend.CorporateSocialResponsibility')}}</h2>
         </div>
@@ -32,7 +32,7 @@
                     <h5 style="color:#009943">{{Lang::get('sunnyfriend.Policy-2')}}</br>{{Lang::get('sunnyfriend.Policy-3')}}</br>{{Lang::get('sunnyfriend.Policy-4')}}</br>{{Lang::get('sunnyfriend.Policy-5')}}</br>{{Lang::get('sunnyfriend.Policy-6')}}</h5>
                 </div>
                 <div class="col-md-6 col-sm-6">
-                    <img class="img-responsive" src="../assets/images/CorporateSocialResponsibility/SFCSR/1.jpg">
+                    <img class="img-responsive" src="../resources/assets/images/CorporateSocialResponsibility/SFCSR/1.jpg">
                 </div>
             </div>
         </div>
@@ -44,55 +44,55 @@
                 <div id="owl-two" class="owl-theme owl-carousel">
                     <div class="item">
                         <div class="ih-item square effect14 csrshadow">
-                            <img class="img-responsive img" src="../assets/images/CorporateSocialResponsibility/SFCSR/Carousel/030-1.jpg">
+                            <img class="img-responsive img" src="../resources/assets/images/CorporateSocialResponsibility/SFCSR/Carousel/030-1.jpg">
                         </div>
                         <p>{{Lang::get('sunnyfriend.Policy-7')}}</p>
                     </div>
                     <div class="item">
                         <div class="ih-item square effect14 csrshadow">
-                            <img class="img-responsive img" src="../assets/images/CorporateSocialResponsibility/SFCSR/Carousel/031-1.jpg">
+                            <img class="img-responsive img" src="../resources/assets/images/CorporateSocialResponsibility/SFCSR/Carousel/031-1.jpg">
                         </div>
                         <p>{{Lang::get('sunnyfriend.Policy-8')}}</p>
                     </div>
                     <div class="item">
                         <div class="ih-item square effect14 csrshadow">
-                            <img class="img-responsive img" src="../assets/images/CorporateSocialResponsibility/SFCSR/Carousel/030-3.jpg">
+                            <img class="img-responsive img" src="../resources/assets/images/CorporateSocialResponsibility/SFCSR/Carousel/030-3.jpg">
                         </div>
                         <p>{{Lang::get('sunnyfriend.Policy-9')}}</p>
                     </div>
                     <div class="item">
                         <div class="ih-item square  effect14 csrshadow">
-                            <img class="img-responsive img" src="../assets/images/CorporateSocialResponsibility/SFCSR/Carousel/034.jpg">
+                            <img class="img-responsive img" src="../resources/assets/images/CorporateSocialResponsibility/SFCSR/Carousel/034.jpg">
                         </div>
                         <p>{{Lang::get('sunnyfriend.Policy-10')}}</p>
                     </div>
                     <div class="item">
                         <div class="ih-item square effect14 csrshadow">
-                            <img class="img-responsive img" src="../assets/images/CorporateSocialResponsibility/SFCSR/Carousel/030-2.jpg">
+                            <img class="img-responsive img" src="../resources/assets/images/CorporateSocialResponsibility/SFCSR/Carousel/030-2.jpg">
                         </div>
                         <p>{{Lang::get('sunnyfriend.Policy-11')}}</p>
                     </div>
                     <div class="item">
                         <div class="ih-item square  effect14 csrshadow">
-                            <img class="img-responsive img" src="../assets/images/CorporateSocialResponsibility/SFCSR/Carousel/032.jpg">
+                            <img class="img-responsive img" src="../resources/assets/images/CorporateSocialResponsibility/SFCSR/Carousel/032.jpg">
                         </div>
                         <p>{{Lang::get('sunnyfriend.Policy-12')}}</p>
                     </div>
                     <div class="item">
                         <div class="ih-item square  effect14 csrshadow">
-                            <img class="img-responsive img" src="../assets/images/CorporateSocialResponsibility/SFCSR/Carousel/033.jpg">
+                            <img class="img-responsive img" src="../resources/assets/images/CorporateSocialResponsibility/SFCSR/Carousel/033.jpg">
                         </div>
                         <p>{{Lang::get('sunnyfriend.Policy-13')}}</p>
                     </div>
                     <div class="item">
                         <div class="ih-item square  effect14 csrshadow">
-                            <img class="img-responsive img" src="../assets/images/CorporateSocialResponsibility/SFCSR/Carousel/030-4.jpg">
+                            <img class="img-responsive img" src="../resources/assets/images/CorporateSocialResponsibility/SFCSR/Carousel/030-4.jpg">
                         </div>
                         <p>{{Lang::get('sunnyfriend.Policy-14')}}</p>
                     </div>
                     <div class="item">
                         <div class="ih-item square  effect14 csrshadow">
-                            <img class="img-responsive img" src="../assets/images/CorporateSocialResponsibility/SFCSR/Carousel/035C.jpg">
+                            <img class="img-responsive img" src="../resources/assets/images/CorporateSocialResponsibility/SFCSR/Carousel/035C.jpg">
                         </div>
                         <p>{{Lang::get('sunnyfriend.Policy-15')}}</p>
                     </div>

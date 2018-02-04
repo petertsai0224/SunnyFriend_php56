@@ -3,7 +3,7 @@
 @section('content')
 <!--banner-->
 <div class="bannerArea b-box  wow fadeInDown" data-wow-delay="0.5s ">
-    <img class="img-responsive" src="../assets/images/news/new_banner.jpg">
+    <img class="img-responsive" src="../resources/assets/images/news/new_banner.jpg">
     <div class="titleBox clearfix">
         <h2>{{Lang::get('sunnyfriend.Investor')}}</h2>
     </div>
@@ -40,7 +40,7 @@
             </div>
             <div class="col-md-8 col-sm-6">
 
-                    <img class="img-responsive" src="../assets/images/news/importantnews.jpg">
+                    <img class="img-responsive" src="../resources/assets/images/news/importantnews.jpg">
             </div>
         </div>
     </div>

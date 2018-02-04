@@ -3,7 +3,7 @@
 @section('content')
         <!--banner-->
     <div class="bannerArea b-box  wow fadeInDown" data-wow-delay="0.5s ">
-        <img class="img-responsive" src="../assets/images/Environmentalprotection/Environmentalprotection_banner.jpg">
+        <img class="img-responsive" src="../resources/assets/images/Environmentalprotection/Environmentalprotection_banner.jpg">
         <div class="titleBox clearfix">
             <h2>{{Lang::get('sunnyfriend.Environmentalprotection')}}</h2>
         </div>

@@ -3,7 +3,7 @@
 @section('content')
 <!--banner-->
     <div class="bannerArea b-box  wow fadeInDown" data-wow-delay="0.5s ">
-        <img class="img-responsive" src="../assets/images/about/about_banner.jpg">
+        <img class="img-responsive" src="../resources/assets/images/about/about_banner.jpg">
         <div class="titleBox clearfix">
             <h2>{{Lang::get('sunnyfriend.AboutSF')}}</h2>
         </div>
@@ -35,12 +35,12 @@
         </div>
         <div class="row">
             <div class="col-md-12 col-sm-12">
-                <img alt="Brand" class="img-responsive center-block" src="../assets/images/about/CompanyStructure.png">
+                <img alt="Brand" class="img-responsive center-block" src="../resources/assets/images/about/CompanyStructure.png">
             </div>
         </div>
         <div class="row">
             <div class="col-md-3 col-sm-3">
-                <img alt="Brand" class="img-responsive center-block back1991" src="../assets/images/house-01.svg">
+                <img alt="Brand" class="img-responsive center-block back1991" src="../resources/assets/images/house-01.svg">
                 <div class="about-text text-center">
                     <h4>{{Lang::get('sunnyfriend.Struture-1')}}<h5>{{Lang::get('sunnyfriend.Struture-2')}}</h5></h4>
                     
@@ -52,7 +52,7 @@
                 </div>
             </div>
             <div class="col-md-3 col-sm-3">
-                <img alt="Brand" class="img-responsive center-block back1991" src="../assets/images/house-01.svg">
+                <img alt="Brand" class="img-responsive center-block back1991" src="../resources/assets/images/house-01.svg">
                 <div class="about-text text-center">
                     <h4>{{Lang::get('sunnyfriend.Struture-7')}}<h5>{{Lang::get('sunnyfriend.Struture-8')}}</h5></h4>
                     <p>{{Lang::get('sunnyfriend.Struture-9')}}</p>
@@ -63,7 +63,7 @@
                 </div>
             </div>
             <div class="col-md-3 col-sm-3">
-                <img alt="Brand" class="img-responsive center-block back1991" src="../assets/images/house-01.svg">
+                <img alt="Brand" class="img-responsive center-block back1991" src="../resources/assets/images/house-01.svg">
                 <div class="about-text text-center">
                     <h4>{{Lang::get('sunnyfriend.Struture-13')}}<h5>{{Lang::get('sunnyfriend.Struture-14')}}</h5></h4>
                     <p>{{Lang::get('sunnyfriend.Struture-15')}}</p>
@@ -74,7 +74,7 @@
                 </div>
             </div>
             <div class="col-md-3 col-sm-3">
-                <img alt="Brand" class="img-responsive center-block back1991" src="../assets/images/house-01.svg">
+                <img alt="Brand" class="img-responsive center-block back1991" src="../resources/assets/images/house-01.svg">
                 <div class="about-text text-center">
                     <h4>{{Lang::get('sunnyfriend.Struture-19')}}<h5>{{Lang::get('sunnyfriend.Struture-20')}}</h5></h4>
                     <p>{{Lang::get('sunnyfriend.Struture-21')}}</p>

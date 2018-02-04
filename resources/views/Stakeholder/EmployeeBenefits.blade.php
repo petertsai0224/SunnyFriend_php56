@@ -3,7 +3,7 @@
 @section('content')
     <!--banner-->
     <div class="bannerArea b-box  wow fadeInDown" data-wow-delay="0.5s ">
-        <img class="img-responsive" src="../assets/images/stackholder/Business People Meeting Discussion Working Concept.jpg">
+        <img class="img-responsive" src="../resources/assets/images/stackholder/Business People Meeting Discussion Working Concept.jpg">
         <div class="titleBox clearfix">
             <h2>{{Lang::get('sunnyfriend.Stackholder')}}</h2>
         </div>
@@ -44,7 +44,7 @@
                     <p style="color:#009943">{{Lang::get('sunnyfriend.EmployeeBenefits-6.1')}}</br><span style="color:#555555">{{Lang::get('sunnyfriend.EmployeeBenefits-6')}}</span></p>
                 </div>
                 <div class="col-md-5 col-sm-12 col-xs-12">
-                    <img class="img-responsive center-block" src="../assets/images/stackholder/036員工2.jpg">
+                    <img class="img-responsive center-block" src="../resources/assets/images/stackholder/036員工2.jpg">
                 </div>
             </div>
             <div class="row">
@@ -57,7 +57,7 @@
                     <p style="color:#009943">{{Lang::get('sunnyfriend.EmployeeBenefits-15')}}</br><span style="color:#555555">{{Lang::get('sunnyfriend.EmployeeBenefits-17')}}</span></p>
                 </div>
                 <div class="col-md-5 col-sm-12 col-xs-12 col-md-pull-7">
-                    <img class="img-responsive center-block" src="../assets/images/stackholder/036員工6.jpg">
+                    <img class="img-responsive center-block" src="../resources/assets/images/stackholder/036員工6.jpg">
                 </div>
             </div>
             <div class="back99"></div>
