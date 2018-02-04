@@ -9,12 +9,18 @@ use App\Http\Model\User;
 use Illuminate\Support\Facades\Input;
 use Crypt;
 use Validator;
+use DB;
 
 class LoginController extends Controller
 {
     public function Admin()
     {
-        return view('Admin.index');
+        try {
+            dd(DB::connection()->getPdo());
+        } catch (\Exception $e) {
+            die("Could not connect to the database.  Please check your configuration.");
+        }
+        //return view('Admin.index');
     }
 
     public function index()

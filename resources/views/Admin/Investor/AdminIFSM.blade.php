@@ -241,7 +241,11 @@
 
     function changeYear(year){
         var values = [];
-        var json = @json($data);
+        
+        //var json = JSON.parse(JSON.stringify("{{$data}}")).replace(/&quot;/g,'"');
+        
+        var json = {!! $data !!};
+        console.log(json);
         if(year=="全部"){
             for(var i = 0; i < json.length; i++){  
                 values.push(json[i]);

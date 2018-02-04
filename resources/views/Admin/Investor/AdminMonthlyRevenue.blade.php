@@ -248,7 +248,10 @@
 
     function changeYear(year){
         var values = [];
-        var json = @json($data);
+        var json = ""//@json($data);
+
+        var data = "{{ $data->toJson() }}";
+   console.log(data.length);
 
         for(var i = 0; i < json.length; i++){
             if(json[i].Year==year){

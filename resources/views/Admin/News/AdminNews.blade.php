@@ -111,6 +111,9 @@
                             </thead>
                             <tbody>
                                 @foreach($data as $news)
+                                    <script>
+                                    console.log("{{$news}}");
+                                    </script>
                                     <tr>
                                         <td data-th="發布日期" class="Date">{{$news->Date}}</td>
                                         <td data-th="標題" class="Title">{{$news->Title}}</td>
@@ -221,7 +224,8 @@
 <script>
 
     $( document ).ready(function() {
-        $(function() {              
+        $(function() {   
+            console.log($data);           
            // Bootstrap DateTimePicker v4
            $('#datetimCreate').datetimepicker({
                  format: 'YYYY-MM-DD'

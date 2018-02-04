@@ -10,6 +10,7 @@ use App\Http\Model\ShareholdersInfo;
 use App\Http\Model\RevenueInfo;
 use App\Http\Model\FinanceInfo;
 use Validator;
+use DB;
 
 class InvestorController extends Controller
 {
@@ -35,9 +36,13 @@ class InvestorController extends Controller
     }
 
     //後台股東會相關資訊 首頁
-    public function AdminShareholdersIndex(){        
-        $shareholdersinfo = ShareholdersInfo::orderBy('Year', 'desc')->get();
-        return view('Admin.Investor.AdminIFSM')->with('data',$shareholdersinfo);
+    public function AdminShareholdersIndex(){    
+        try {
+            $shareholdersinfo = ShareholdersInfo::orderBy('Year', 'desc')->get();
+            return view('Admin.Investor.AdminIFSM')->with('data',$shareholdersinfo);
+            } catch (\Exception $e) {
+            die("Could not connect to the database.  Please check your configuration.");
+        }    
     }
 
     //後台股東會相關資訊 新增
